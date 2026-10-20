@@ -4,7 +4,7 @@
   "purpose": "Verified exercise-specific movement demo source mapping for existing 12-week barbell program.",
   "lastReviewed": "2026-10-20",
   "integrationStatus": "source-mapping-only — app UI not yet changed",
-  "mediaPolicy": "Link to original GIF guides; do not copy or hotlink proprietary GIF files without permission. Verify third-party MP4 video rights separately from metadata/software licensing. Use YouTube's official embed/player when permitted.",
+  "mediaPolicy": "The dataset's MIT license clearly covers software and metadata, but check separate media ownership/hosting rights before copying videos to Field Strength. External GIF and video guides are linked, not copied. YouTube playback should use its normal embed when permitted.",
   "exercises": [
     {
       "id": "squat",
@@ -16,7 +16,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/1435.json",
       "secondaryGuideUrl": "https://www.ffocus.me/exercise/barbell-squat",
       "match": "exact",
-      "notes": "Classic high-bar back-squat movement; not front squat or bodyweight squat."
+      "notes": "Classic high-bar back-squat movement; not front squat or bodyweight squat.",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "bench",
@@ -28,7 +29,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/0025.json",
       "secondaryGuideUrl": "https://www.ffocus.me/exercise/barbell-bench-press",
       "match": "exact",
-      "notes": "Flat bench with Olympic barbell."
+      "notes": "Flat bench with Olympic barbell.",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "row",
@@ -40,7 +42,8 @@
       "sourceUrl": "https://www.ffocus.me/exercise/bent-over-barbell-row",
       "match": "exact",
       "notes": "Overhand bent-over barbell row; do not substitute underhand row.",
-      "mediaAction": "open-source-page-to-view-gif"
+      "mediaAction": "open-source-page-to-view-gif",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "rdl",
@@ -52,7 +55,8 @@
       "sourceUrl": "https://www.ffocus.me/exercise/romanian-deadlift",
       "match": "exact",
       "notes": "Knees soft, hips hinge back, bar remains close; distinct from stiff-legged deadlift.",
-      "mediaAction": "open-source-page-to-view-gif"
+      "mediaAction": "open-source-page-to-view-gif",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "plank",
@@ -63,8 +67,9 @@
       "posterUrl": null,
       "sourceUrl": "https://www.ffocus.me/exercise/plank",
       "match": "exact",
-      "notes": "Forearm plank isometric hold; not a moving high plank.",
-      "mediaAction": "open-source-page-to-view-gif"
+      "notes": "Forearm isometric plank; the demonstration may show a static hold rather than a changing motion.",
+      "mediaAction": "open-source-page-to-view-gif",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "deadlift",
@@ -76,7 +81,8 @@
       "sourceUrl": "https://www.ffocus.me/exercise/barbell-deadlift",
       "match": "exact",
       "notes": "Conventional barbell deadlift from the floor, not Romanian/sumo/Smith machine.",
-      "mediaAction": "open-source-page-to-view-gif"
+      "mediaAction": "open-source-page-to-view-gif",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "ohp",
@@ -88,7 +94,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/0553.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Strict standing barbell overhead press; no leg drive."
+      "notes": "Strict standing barbell overhead press; no leg drive.",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "pull",
@@ -100,7 +107,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/0651.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Shoulder-width overhand pull-up on rack bar."
+      "notes": "Shoulder-width overhand pull-up on rack bar.",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "chin",
@@ -112,7 +120,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/2327.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Shoulder-width underhand chin-up (equivalent naming for demonstration)."
+      "notes": "Shoulder-width underhand chin-up (equivalent naming for demonstration).",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "split",
@@ -124,7 +133,8 @@
       "sourceUrl": "https://www.ffocus.me/exercise/split-squats",
       "match": "exact",
       "notes": "Stationary bodyweight split squat; not walking lunges.",
-      "mediaAction": "open-source-page-to-view-gif"
+      "mediaAction": "open-source-page-to-view-gif",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "incline",
@@ -136,7 +146,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/0047.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Incline bench using Olympic barbell."
+      "notes": "Incline bench using Olympic barbell.",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "close",
@@ -148,7 +159,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/0030.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Moderately narrow grip (not extremely narrow)."
+      "notes": "Moderately narrow grip (not extremely narrow).",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "curl",
@@ -160,7 +172,8 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/0031.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Standing straight-bar curl."
+      "notes": "Standing straight-bar curl.",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "calf",
@@ -172,7 +185,8 @@
       "sourceUrl": "https://www.ffocus.me/exercise/bodyweight-standing-calf-raise",
       "match": "exact",
       "notes": "Unloaded calf raise with rack support; no standing calf machine.",
-      "mediaAction": "open-source-page-to-view-gif"
+      "mediaAction": "open-source-page-to-view-gif",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "hang",
@@ -184,19 +198,21 @@
       "sourceUrl": "https://github.com/luisaraujoc/free-exercise-db-api/blob/main/data/exercises/1764.json",
       "secondaryGuideUrl": null,
       "match": "exact",
-      "notes": "Bent-knee raise and pelvic curl on a hanging pull-up bar (matching movement)."
+      "notes": "Bent-knee raise and pelvic curl on a hanging pull-up bar (matching movement).",
+      "verification": "Exact video URL listed in exercise source dataset; direct media playback not independently tested."
     },
     {
       "id": "lateral",
       "name": "Light plate lateral raise",
-      "mediaType": "youtube",
-      "demoName": "Light plate lateral raise",
+      "mediaType": "external-video-guide",
+      "demoName": "Plate Lateral Raise",
       "mediaUrl": null,
       "posterUrl": null,
-      "sourceUrl": "https://www.youtube.com/watch?v=uBLr7rFo32w",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/uBLr7rFo32w",
+      "sourceUrl": "https://workoutxapp.com/exercises/plate-lateral-raise.html",
       "match": "exact",
-      "notes": "Plate lateral raise, not dumbbell/machine raise."
+      "notes": "Raises light plates laterally only to shoulder height; do not substitute a full overhead Lu raise.",
+      "mediaAction": "open-source-page-to-view-video",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "pause",
@@ -205,22 +221,25 @@
       "demoName": "Pause back squat",
       "mediaUrl": null,
       "posterUrl": null,
-      "sourceUrl": "https://www.youtube.com/watch?v=nknf16JJTZo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/nknf16JJTZo",
+      "sourceUrl": "https://www.youtube.com/watch?v=-79SHuREDdk",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-79SHuREDdk",
       "match": "exact",
-      "notes": "Paused barbell back squat; deliberate pause at depth."
+      "notes": "Paused back squat; this specific video is linked on BarBend's squat guide.",
+      "secondaryGuideUrl": "https://barbend.com/back-squat/",
+      "verification": "Matching YouTube demonstration or linked by reputable movement guide; embedding not independently tested."
     },
     {
       "id": "stagger",
       "name": "Staggered-stance Romanian deadlift",
-      "mediaType": "youtube",
+      "mediaType": "external-video-guide",
       "demoName": "Staggered-stance Romanian deadlift",
       "mediaUrl": null,
       "posterUrl": null,
-      "sourceUrl": "https://www.youtube.com/watch?v=xPLJGqkUcX0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/xPLJGqkUcX0",
+      "sourceUrl": "https://www.trainwell.net/exercises/staggered-stance-barbell-romanian-deadlift",
       "match": "exact",
-      "notes": "Barbell B-stance/staggered-stance Romanian deadlift."
+      "notes": "Correct barbell staggered-stance RDL, not a single-leg free-standing or dumbbell RDL.",
+      "mediaAction": "open-source-page-to-view-video",
+      "verification": "Exercise page confirmed and describes the correct movement; on-page media playback not independently tested."
     },
     {
       "id": "bulgarian",
@@ -229,10 +248,11 @@
       "demoName": "Bulgarian split squat",
       "mediaUrl": null,
       "posterUrl": null,
-      "sourceUrl": "https://www.youtube.com/watch?v=bwhl_9jN_3o",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/bwhl_9jN_3o",
+      "sourceUrl": "https://www.youtube.com/watch?v=4-qkLYDckys",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4-qkLYDckys",
       "match": "exact",
-      "notes": "Bodyweight Bulgarian split squat using a stable bench."
+      "notes": "Bodyweight Bulgarian split squat with a bench; verified Live Lean TV exercise demo.",
+      "verification": "Matching YouTube demonstration or linked by reputable movement guide; embedding not independently tested."
     }
   ]
 }
